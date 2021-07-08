@@ -25,6 +25,20 @@ def unique_list(lst):
     print(set(lst))
     return set(lst)
 
+#multiply numbers in the list
+def multiply(numbers):
+    mulnum =1
+    for n in numbers:
+        mulnum = n*mulnum
+    print(mulnum)
+    
+# check the string reverse word is equal to the word
+def palindrome(s):
+    s = s.replace(' ','')
+    s == s[::-1] 
+
 #ran_check(5,3,9) 
 #up_low('My Name Is Deshan Amarathunga')
-unique_list([1,3,4,5,4,4,3,2,2,3,4,5,4,3,2])
+#unique_list([1,3,4,5,4,4,3,2,2,3,4,5,4,3,2])
+#multiply([1,2,3,-4])
+#palindrome('nurse run')
